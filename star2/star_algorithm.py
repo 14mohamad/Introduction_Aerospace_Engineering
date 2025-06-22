@@ -348,7 +348,7 @@ def identify_and_annotate_stars(img, filename="image.jpg", threshold_value=120):
         
         for det_star in detected_with_coords:
             dist = np.sqrt((det_star['ra'] - cat_star['ra'])**2 + (det_star['dec'] - cat_star['dec'])**2)
-            if dist < min_dist and dist < 0.8:
+            if dist < min_dist and dist < 1.0:
                 min_dist = dist
                 best_detected = det_star
         
