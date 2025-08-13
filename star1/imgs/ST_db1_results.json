@@ -1,0 +1,42 @@
+{
+  "image": "imgs/ST_db1.png",
+  "coordinates": {
+    "ra": 188.119049949,
+    "dec": 58.3959651518,
+    "radius": 1.0
+  },
+  "detected_stars": 230,
+  "identified_stars": 3,
+  "matches": [
+    {
+      "x": 792.0,
+      "y": 587.5,
+      "name": "74    UMa",
+      "hr": 4760,
+      "magnitude": 5.35,
+      "spectral_type": "A5Del Del",
+      "distance": 0.07389365946267078,
+      "brightness": 165.0
+    },
+    {
+      "x": 1192.0,
+      "y": 90.0,
+      "name": "HR4800",
+      "hr": 4800,
+      "magnitude": 5.5,
+      "spectral_type": "M4IIIe",
+      "distance": 0.37606674301627135,
+      "brightness": 204.0
+    },
+    {
+      "x": 732.5,
+      "y": 332.8333435058594,
+      "name": "75    UMa",
+      "hr": 4762,
+      "magnitude": 6.08,
+      "spectral_type": "G8III-IV",
+      "distance": 0.16904780053435767,
+      "brightness": 255.0
+    }
+  ]
+}
